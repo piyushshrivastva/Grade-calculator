@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(199, 227, 235);
+}
+
+#container{  
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#mainh{
+    margin-left: 20px;
+}
+
+#grade,#total,#average {
+    height: 66px;
+    width: 200px;
+}
+
+form{
+    background-color: white;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+}
+form h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 0;    
+}
+
+section {
+    background-color: white;
+}
+
+section h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+#total,#average,#grade{
+    visibility: hidden;
+}
+
+button{
+    background-color: gray;
+}
